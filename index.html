@@ -12,6 +12,9 @@
   <!-- main css -->
   <!-- ===FONTS=== -->
   <!-- ===JS LINKS=== -->
+  <!-- jquery -->
+  <script defer src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
   <!-- bootstrap -->
   <script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
@@ -19,9 +22,6 @@
   <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
   </script>
-  <!-- jquery -->
-  <script defer src="https://code.jquery.com/jquery-3.4.1.js"
-    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
   <!-- main -->
 
   <title>Ramen Place</title>
@@ -29,7 +29,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#welcome">Ramen Place</a>
+      <a class="navbar-brand" href="#welcome-area">Ramen Place</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -37,10 +37,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#about-us">About Us</a>
+            <a class="nav-link" href="#about-us-area">About Us</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Menu</a>
+            <a href="#menu-area" class="nav-link">Menu</a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">Photo Gallery</a>
@@ -59,7 +59,7 @@
     </nav>
   <div class="container">
     <header>
-      <div id="welcome">
+      <div id="welcome-area">
         <div class="row">
           <div class="col-12">
             <div class="jumbotron">
@@ -73,7 +73,7 @@
     <main>
       <div class="row">
         <div class="col-12">
-          <div id="about-us">
+          <div id="about-us-area">
             <div class="card">
               <h5 class="card-header">About Us</h5>
               <div class="card-body">
@@ -90,9 +90,55 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg">
-          <div id="menu">
-            
+        <div class="col-12">
+          <div id="menu-area">
+            <br>
+            <h5 id="menu-heading">MENU</h5>
+            <br>
+            <div class="card">
+              <h5 class="card-header">Appetizers</h5>
+              <div class="card-body">
+              </div>
+            </div>
+            <div class="card">
+              <h5 class="card-header">Entrees</h5>
+              <div class="card-body">
+              </div>
+            </div>
+            <div class="card">
+              <h5 class="card-header">Deserts</h5>
+              <div class="card-body">
+              </div>
+            </div>
+            <div class="card">
+              <h5 class="card-header">Specials</h5>
+              <div class="card-body">
+              </div>
+            </div>
+            <div class="card">
+              <h5 class="card-header">Beverages</h5>
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div id="photo-gallery-area">
+            <div class="jumbotron">
+              <div class="row">
+                <div class="col-4">
+
+                </div>
+                <div class="col-4">
+
+                </div>
+                <div class="col-4">
+                  
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
