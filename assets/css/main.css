@@ -1,0 +1,92 @@
+body{
+    font-family: 'Martel', serif;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/58fd82dbbf629ab224f81b68/1519968262911-6191QBX6XFQJY3KGKZ7H/ke17ZwdGBToddI8pDm48kKb8xaXhhERVG3zP28y-JQIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcuIokUEnf1BrpkEZS0sodxgQ6n_luvtiX5Vdc0JgWdNxz6fX1PRUfRBt6MugwRY4X/Taikan-Yokoyama-Mount-Penglai.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1,.section-heading,.card-header{
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+
+tr:nth-child(even) {
+    background-color: #ed1c24;
+    color: whitesmoke;
+  }
+
+.container{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+.jumbotron{
+    text-align: center;
+    margin-top: 10px;
+    background-color: #E28413;
+    color: whitesmoke;
+}
+
+.menu-section{
+    text-decoration: underline;
+}
+
+.nav-link:hover, .navbar-brand:hover{
+    color: yellow !important;
+}
+
+.section-card-header{
+    text-align: center;
+    border: 10px double white;
+
+}
+
+.section-heading, .card-header{
+    background-color: #ed1c24;
+    color: whitesmoke;
+}
+
+.section-heading{
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    align-self: center;
+    border: 10px double white;
+}
+
+.social-icons{
+    margin: 0 0 0 40px;
+    color: #f56416;
+}
+
+#copyright{
+    text-align: center;
+    background-color: #DC3545;
+    color: whitesmoke;
+}
+#facebook-icon:hover{
+    color: #3B579D;
+}
+
+#instagram-icon:hover{
+    color: #FFC14F
+}
+
+#twitter-icon:hover{
+    color: #1DA1F2
+}
+
+#yelp-icon:hover{
+    color: #D32323;
+}
+
+#logo-image{
+    height: 300px;
+    width: auto;
+}
+
+#manager-img{
+    height: 200px;
+    width: auto;
+}
+
