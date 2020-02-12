@@ -19,5 +19,24 @@ $(document).ready(function(){
               window.location.hash = hash;
             });
           } // End if
-    })
+    });
+
+    // Submit and policy btn code
+    $("#submit-btn").on("click", function(event){
+        event.preventDefault();
+        $("#customer-name").val("");
+        $("#customer-email").val(""); 
+        $("#customer-message").val("");
+        $('#sent-message').modal('show');
+
+    });
+
+    $("#policy-link").on("click", function(event){
+        event.preventDefault();
+    });
+
+    // social icon prevent default
+    $(".social-icons").on("click", function(event){
+        event.preventDefault();
+    });
 });

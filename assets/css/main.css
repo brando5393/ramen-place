@@ -22,6 +22,8 @@ tr:nth-child(even) {
 
 .container{
     background-color: rgba(255, 255, 255, 0.7);
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 
@@ -59,7 +61,7 @@ tr:nth-child(even) {
 }
 
 .social-icons{
-    margin: 0 0 0 40px;
+    margin: 0 5% 0 5%;
     color: #f56416;
 }
 
@@ -92,5 +94,9 @@ tr:nth-child(even) {
 #manager-img{
     height: 200px;
     width: auto;
+}
+
+#sent-message{
+    font-size: medium !important;
 }
 
